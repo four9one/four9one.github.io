@@ -18,7 +18,7 @@ const Form: React.FC = () => {
       <div className="grid gap-x-10 gap-y-3 sm:grid-cols-2">
         <label className="block">
           <span className="mb-1 block text-sm font-normal text-slate-500">
-            Firstname
+            Firstname:
           </span>
           <input
             {...register('firstName', { required: true, minLength: 4 })}
